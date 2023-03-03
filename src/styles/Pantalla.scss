@@ -1,0 +1,16 @@
+@import '_imports.scss';
+
+.pantalla{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1.5rem;
+    width: 100%;
+    background-color: $negro;
+    border-radius: 50px;
+    color: white;
+    text-align: right;
+    margin-bottom: 1rem;
+    height: 56px;
+    font-size: 1.5rem;
+}

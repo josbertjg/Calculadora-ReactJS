@@ -1,0 +1,38 @@
+@import '_imports.scss';
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $negro;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    transition: all 150ms;
+    @media screen and (max-width:399px) {
+        height: 55px;
+        width: 55px;
+        font-size: 1.2rem;
+    }
+    &:hover{
+        background-color: lighten($negro,5);
+    }
+    &:active{
+        background-color: darken($negro,5);
+    }
+}
+.operator{
+    background-color: darken($rosado,5);
+    &:hover{
+        background-color: lighten($rosado,5);
+    }
+    &:active{
+        background-color: darken($rosado,10);
+    }
+}
